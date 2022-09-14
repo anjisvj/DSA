@@ -11,14 +11,12 @@ class SelectionSort{
 					
 				}
 			}
-			//System.out.println("value "+minValue);
 			int minIndex=i;
 			for(int k=i;k<number.length-i;k++){
 				if(number[k]==minValue){
 					minIndex=k;
 				}
 			}
-			//System.out.println("index "+minIndex);
 			if(minValue<number[i-1]){
 				number[minIndex]=number[i-1];
 				number[i-1]=minValue;
